@@ -26,14 +26,6 @@ body:
     validations:
       required: true
       
-  - type: textarea
-    id: implementation-input
-    attributes:
-      label: Are you willing to take it up for implementation?
-      description: Tell us in details about your play.
-    validations:
-      required: true
-      
   - type: dropdown
     id: implementation
     attributes:
