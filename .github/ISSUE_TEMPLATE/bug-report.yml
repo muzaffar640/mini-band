@@ -30,8 +30,8 @@ body:
     attributes:
       label: Steps to reproduce the bug?
 #       description: Also tell us, what did you expect to happen?
-      placeholder: > 1. Go to 
-                   > 2. Click on
+      placeholder: \n 1. Go to 
+                   \n 2. Click on
 
 #       value: "A bug happened!"
     validations:
