@@ -1,7 +1,7 @@
 name: New Play
 description: Add a New Play Request
 title: "[Add a Play]: "
-labels: ["play-request]
+labels: ["play-request"]
 assignees: [""]
 body:
   - type: markdown
