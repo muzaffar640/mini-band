@@ -29,7 +29,7 @@ body:
     id: reproduce-step
     attributes:
       label: Steps to reproduce the bug?
-      description: Steps to reproduce the behavior:
+      description: Steps to reproduce the behavior..
       placeholder: 1. Go to ..
                    2. Click on ..
                    
