@@ -7,7 +7,44 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time for creating a new play.
+        
+        
+  - type: textarea
+    id: about-play
+    attributes:
+      label: What's the Play about?
+      description: Tell us in details about your play.
+#       placeholder: Tell us what you see!      
+        
+  - type: textarea
+    id: react-concepts
+    attributes:
+      label: What ReactJS concept will be used to create this play?
+      placeholder: Components, Hooks, React Router ...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: about-play
+    attributes:
+      label: Are you willing to take it up for implementation?
+      description: Tell us in details about your play.
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Are you willing to take it up for implementation?
+      multiple: true
+      options:
+        - Yes
+        - No
+     validations:
+      required: true
+        
+        
   - type: input
     id: contact
     attributes:
