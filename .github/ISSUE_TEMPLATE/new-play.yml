@@ -41,7 +41,7 @@ body:
       options:
         - Yes
         - No
-     validations:
+    validations:
       required: true
         
         
