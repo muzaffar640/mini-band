@@ -26,7 +26,7 @@ body:
       required: true
       
   - type: textarea
-    id: about-play
+    id: implementation-input
     attributes:
       label: Are you willing to take it up for implementation?
       description: Tell us in details about your play.
