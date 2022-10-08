@@ -39,8 +39,8 @@ body:
       label: Are you willing to take it up for implementation?
       multiple: true
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
         
