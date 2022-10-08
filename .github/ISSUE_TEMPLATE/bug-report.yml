@@ -73,12 +73,17 @@ body:
 #         - Firefox
 #         - Chrome
 #         - Safari
-#         - Microsoft Edge      
+#         - Microsoft Edge     
   - type: textarea
-    id: logs
+    id: screenshot
+    attributes:
+      label: Screenshot / Screenshare
+      description: If applicable, add screenshots to help explain your problem.
+  - type: textarea
+    id: additional-context
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Add any other context about the problem here.
       render: shell
   - type: checkboxes
     id: terms
