@@ -15,6 +15,7 @@ body:
     attributes:
       label: What's the Play about?
       description: Tell us in details about your play.
+      placeholder: This play helps user to .....
     validations:
       required: true
         
