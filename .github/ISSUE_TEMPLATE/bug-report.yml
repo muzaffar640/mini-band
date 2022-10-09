@@ -44,16 +44,16 @@ body:
       description: A clear and concise description of what you expected to happen.                   
     validations:
       required: true  
-#   - type: dropdown
-#     id: version
-#     attributes:
-#       label: Version
-#       description: What version of our software are you running?
-#       options:
-#         - 1.0.2 (Default)
-#         - 1.0.3 (Edge)
-#     validations:
-#       required: true
+  - type: textarea
+    id: desktop-browser
+    attributes:
+      label: Desktop (please provide your system information):
+      description:  - OS: [e.g. iOS]
+                    - Browser [e.g. chrome, safari]
+                    - Version [e.g. 22]                 
+    validations:
+      required: true  
+
   - type: dropdown
     id: browsers
     attributes:
