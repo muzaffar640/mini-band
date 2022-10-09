@@ -49,7 +49,7 @@ body:
     attributes:
       label: Desktop (please provide your system information)
       description:  |
-        examples
+        examples:
           - OS: [e.g. iOS]
           - Browser [e.g. chrome, safari]
           - Version [e.g. 22]                 
