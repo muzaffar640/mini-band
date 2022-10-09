@@ -22,8 +22,10 @@ body:
       label: Steps to reproduce the bug?
       description: Steps to reproduce the behavior..
       placeholder: |
-          1. Go to ..
-          2. Click on ..
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
     validations:
       required: true   
       
@@ -41,11 +43,12 @@ body:
       label: Desktop (Please provide your system information)
       description:  |
         examples:
-          - OS: [e.g. iOS]
-          - Browser [e.g. chrome, safari]
-          - Version [e.g. 22]                 
+          - **OS**: [e.g. iOS]
+          - **Browser** [e.g. chrome, safari]
+          - **Version** [e.g. 22]                 
     validations:
       required: true  
+      
   - type: textarea
     id: mobile-browser
     attributes:
@@ -54,40 +57,21 @@ body:
         examples:
            - **Device**: [e.g. iPhone6]
            - **OS**: [e.g. iOS8.1]
-           - Browser [e.g. stock browser, safari]
-           - Version [e.g. 22]       
-
-#   - type: dropdown
-#     id: browsers
-#     attributes:
-#       label: What browsers are you seeing the problem on?
-#       multiple: true
-#       options:
-#         - Firefox
-#         - Chrome
-#         - Safari
-#         - Microsoft Edge
-#   - type: dropdown
-#     id: browsers
-#     attributes:
-#       label: What browsers are you seeing the problem on?
-#       multiple: true
-#       options:
-#         - Firefox
-#         - Chrome
-#         - Safari
-#         - Microsoft Edge     
+           - **Browser** [e.g. stock browser, safari]
+           - **Version** [e.g. 22]           
   - type: textarea
     id: screenshot
     attributes:
       label: Screenshot / Screenshare
       description: If applicable, add screenshots to help explain your problem.
+      
   - type: textarea
     id: additional-context
     attributes:
       label: Relevant log output
       description: Add any other context about the problem here.
       render: shell
+      
   - type: checkboxes
     id: terms
     attributes:
